@@ -1,0 +1,237 @@
+
+[
+  {
+    "id": "case-001",
+    "title": "75-year-old female with Abdominal pain",
+    "description": "A patient presents with abdominal pain.",
+    "patient_info": {
+      "age": 72,
+      "gender": "male",
+      "chief_complaint": "Abdominal pain",
+      "history": {
+        "medical": [
+          "Hyperlipidemia",
+          "Diabetes"
+        ],
+        "surgical": [],
+        "family": [
+          "Heart disease",
+          "Diabetes"
+        ],
+        "medications": [
+          "Aspirin",
+          "Metformin"
+        ]
+      },
+      "vitals": {
+        "heart_rate": 90,
+        "blood_pressure": "116/89",
+        "temperature": "97.8°F",
+        "respiratory_rate": 15,
+        "oxygen_saturation": "100% on room air"
+      }
+    },
+    "steps": [
+      {
+        "id": "step-1",
+        "content": "Patient presents with abdominal pain. What is your first step?",
+        "question": "Choose the most appropriate initial action.",
+        "options": [
+          "Order ECG",
+          "Order Chest X-ray",
+          "Administer IV fluids",
+          "Give pain medication"
+        ],
+        "correct_option": "Order ECG",
+        "next_step_map": {
+          "Order ECG": "step-2",
+          "Order Chest X-ray": "step-2",
+          "Administer IV fluids": "step-2",
+          "Give pain medication": "step-2"
+        }
+      },
+      {
+        "id": "step-2",
+        "content": "Based on clinical evaluation, what is the most likely diagnosis?",
+        "question": "Pick the most likely condition.",
+        "options": [
+          "STEMI",
+          "Migraine",
+          "Pneumonia",
+          "Appendicitis"
+        ],
+        "correct_option": "Appendicitis",
+        "next_step_map": {
+          "STEMI": "final",
+          "Migraine": "final",
+          "Pneumonia": "final",
+          "Appendicitis": "final"
+        }
+      }
+    ],
+    "final": {
+      "summary": "This was a case of Appendicitis, managed according to standard protocols.",
+      "learning_points": [
+        "Recognize key signs and symptoms of Appendicitis.",
+        "Use clinical judgment to order appropriate initial investigations.",
+        "Timely diagnosis leads to better outcomes."
+      ]
+    }
+  },
+  {
+    "id": "case-002",
+    "title": "48-year-old male with Blurred vision",
+    "description": "A patient presents with blurred vision.",
+    "patient_info": {
+      "age": 25,
+      "gender": "female",
+      "chief_complaint": "Blurred vision",
+      "history": {
+        "medical": [
+          "Asthma",
+          "Hyperlipidemia"
+        ],
+        "surgical": [],
+        "family": [
+          "Heart disease",
+          "Diabetes"
+        ],
+        "medications": [
+          "Albuterol",
+          "Metformin"
+        ]
+      },
+      "vitals": {
+        "heart_rate": 75,
+        "blood_pressure": "142/70",
+        "temperature": "99.7°F",
+        "respiratory_rate": 20,
+        "oxygen_saturation": "92% on room air"
+      }
+    },
+    "steps": [
+      {
+        "id": "step-1",
+        "content": "Patient presents with blurred vision. What is your first step?",
+        "question": "Choose the most appropriate initial action.",
+        "options": [
+          "Order ECG",
+          "Order Chest X-ray",
+          "Administer IV fluids",
+          "Give pain medication"
+        ],
+        "correct_option": "Order ECG",
+        "next_step_map": {
+          "Order ECG": "step-2",
+          "Order Chest X-ray": "step-2",
+          "Administer IV fluids": "step-2",
+          "Give pain medication": "step-2"
+        }
+      },
+      {
+        "id": "step-2",
+        "content": "Based on clinical evaluation, what is the most likely diagnosis?",
+        "question": "Pick the most likely condition.",
+        "options": [
+          "STEMI",
+          "Migraine",
+          "Pneumonia",
+          "Appendicitis"
+        ],
+        "correct_option": "Diabetic Retinopathy",
+        "next_step_map": {
+          "STEMI": "final",
+          "Migraine": "final",
+          "Pneumonia": "final",
+          "Appendicitis": "final"
+        }
+      }
+    ],
+    "final": {
+      "summary": "This was a case of Diabetic Retinopathy, managed according to standard protocols.",
+      "learning_points": [
+        "Recognize key signs and symptoms of Diabetic Retinopathy.",
+        "Use clinical judgment to order appropriate initial investigations.",
+        "Timely diagnosis leads to better outcomes."
+      ]
+    }
+  },
+  {
+    "id": "case-003",
+    "title": "38-year-old female with Fever and cough",
+    "description": "A patient presents with fever and cough.",
+    "patient_info": {
+      "age": 79,
+      "gender": "female",
+      "chief_complaint": "Fever and cough",
+      "history": {
+        "medical": [
+          "Hypertension",
+          "GERD"
+        ],
+        "surgical": [],
+        "family": [
+          "Heart disease",
+          "Diabetes"
+        ],
+        "medications": [
+          "Albuterol",
+          "Lisinopril"
+        ]
+      },
+      "vitals": {
+        "heart_rate": 96,
+        "blood_pressure": "118/100",
+        "temperature": "101.6°F",
+        "respiratory_rate": 23,
+        "oxygen_saturation": "96% on room air"
+      }
+    },
+    "steps": [
+      {
+        "id": "step-1",
+        "content": "Patient presents with fever and cough. What is your first step?",
+        "question": "Choose the most appropriate initial action.",
+        "options": [
+          "Order ECG",
+          "Order Chest X-ray",
+          "Administer IV fluids",
+          "Give pain medication"
+        ],
+        "correct_option": "Order ECG",
+        "next_step_map": {
+          "Order ECG": "step-2",
+          "Order Chest X-ray": "step-2",
+          "Administer IV fluids": "step-2",
+          "Give pain medication": "step-2"
+        }
+      },
+      {
+        "id": "step-2",
+        "content": "Based on clinical evaluation, what is the most likely diagnosis?",
+        "question": "Pick the most likely condition.",
+        "options": [
+          "STEMI",
+          "Migraine",
+          "Pneumonia",
+          "Appendicitis"
+        ],
+        "correct_option": "Pneumonia",
+        "next_step_map": {
+          "STEMI": "final",
+          "Migraine": "final",
+          "Pneumonia": "final",
+          "Appendicitis": "final"
+        }
+      }
+    ],
+    "final": {
+      "summary": "This was a case of Pneumonia, managed according to standard protocols.",
+      "learning_points": [
+        "Recognize key signs and symptoms of Pneumonia.",
+        "Use clinical judgment to order appropriate initial investigations.",
+        "Timely diagnosis leads to better outcomes."
+      ]
+    }
+  }
+]
